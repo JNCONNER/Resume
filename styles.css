@@ -1,0 +1,930 @@
+
+body{
+    overflow:none;
+}
+
+.certifications{
+    color: black;
+    text-decoration: underline;
+    margin-left: 20px;
+   
+}
+.certs .certifications-of-mine{
+    display: inline;
+}
+ /* html start-------------------------------- */
+.certs .certifications-of-mine .html-title{
+    text-decoration: none;
+    display: flex;
+    margin-left: 20px;
+}
+.certs .certifications-of-mine .html-title:hover{
+    text-decoration: underline;
+    
+}
+
+.certs .certifications-of-mine .html {
+    transition: transform 0.25s ease;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+.certs .html:hover{
+  -webkit-transform:scale(2.5);
+    transform: scale(2.5);
+}
+
+/* html end------------------------------- */
+
+
+/* CSS---------------------------------- */
+
+.certs .certifications-of-mine .css-title{
+    text-decoration: none;
+    display: flex;
+    margin-left: 50px;
+}
+.certs .certifications-of-mine .css-title:hover{
+    text-decoration: underline;
+    
+}
+
+.certs .certifications-of-mine .css {
+    transition: transform 0.25s ease;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+.certs .css:hover{
+  -webkit-transform:scale(2.5);
+    transform: scale(2.5);
+}
+
+
+
+
+
+/* CSS- Endddd-------------------------------- */
+.certs .title{
+    color:blue;
+    margin-left: 30px;
+    font-size: 30px;
+    text-decoration: underline;
+    
+}
+
+.certs .certifications-of-mine{
+    display: flex;
+    flex-direction: row;
+}
+#container1 {
+    display:flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: aqua; */
+    flex-direction: column;
+    /* margin-left: 400px; */
+    margin: 0;
+    overflow: hidden;
+    /* text-align: center; */
+    
+ }
+ 
+ 
+ h1{
+     color:red;
+     text-align: center;
+     text-decoration: overline;
+   
+ 
+     
+ }
+ 
+ h2{
+     text-align: center;
+     text-decoration:underline;
+     color: red;
+ }
+
+ h3{
+    color: white;
+ }
+ 
+ .tenminsite{
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/background3.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+     position: center;
+ }
+ 
+ .button1:hover{
+     background-color: white;
+     border-radius: 20px;
+     color:darkgoldenrod;
+     text-decoration-style: wavy;
+     
+     
+ }
+ .tenminsite a {
+     color: black;
+     background-color: yellow;
+     line-height: 30px;
+ }
+ .tenminsite h3{
+    margin: 0;
+ }
+ 
+ .creative-agency {
+     /* flex-direction: column; */
+     /* background-color: chartreuse; */
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/backgroundjpg.jpg);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+     position: center;
+     
+ }
+ 
+ .button2:hover{
+     background-color: yellow;
+     border-radius: 20px;
+     color: black;
+     text-decoration-style: wavy;
+     
+ }
+ 
+ .creative-agency a{
+     color: red;
+     background-color: white;
+     line-height: 30px;
+     
+ }
+
+ .creative-agency h3{
+    margin: 0;
+ }
+ 
+ .web-vid-background {
+     /* flex-direction: column; */
+     /* background-color: chartreuse; */
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/abstract.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+     position: center;
+ }
+ 
+ .web-vid-background a {
+     color: whitesmoke;
+     background-color: black;
+     line-height: 30px;
+     /* position: absolute; */
+ }
+ 
+ .button3:hover {
+     background-color: lightblue;
+     border-radius: 30px;
+     color: red;
+     text-decoration-style: wavy;
+    
+ }
+
+ .web-vid-background h3 {
+    margin: 0;
+ }
+ .Loruki {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/loruki.webp);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+     position: center;
+ }
+ 
+ .button4:hover {
+     background-color: blue;
+     border-radius: 30px;
+     color: white;
+     text-decoration-style: wavy;
+ }
+ 
+ .Loruki a {
+     color: blue;
+     background-color: white;
+ }
+
+ .Loruki a {
+    line-height: 30px;
+ }
+
+ .Loruki h3 {
+    margin: 0;
+ }
+ 
+ .Grid-Crash {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/gridcrash.webp);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+     /* position: center; */
+ 
+ }
+ 
+ .button5:hover {
+     background-color: lightyellow;
+     border-radius: 30px;
+     color: blue;
+     text-decoration-style: wavy;
+ }
+ 
+ .Grid-Crash a {
+     color: lightblue;
+     background-color: blue;
+     line-height: 30px;
+ }
+
+ .Grid-Crash h3 {
+    margin: 0;
+ }
+ 
+ .CC-Site {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/cc-site.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+    
+ }
+ 
+ .CC-Site a {
+     color: black !important;
+     background-color: aliceblue;
+     line-height: 30px;
+ }
+
+ .CC-Site h3 {
+    margin: 0;
+    color: black;
+ }
+ 
+ .button6:hover {
+     background-color: lightblue;
+     border-radius: 30px;
+     color:blue;
+     text-decoration-style: wavy;
+     
+ }
+
+ .Grid-Biz {
+    height: 120px;
+    margin: auto;
+    background-image: url(./images/grid-biz.avif);
+    text-align: center;
+    border: solid black;
+    /* object-fit: cover; */
+    /* position:absolute; */
+    width: 100%;
+    
+    
+    /* position: center; */
+    
+} 
+
+.Grid-Biz a {
+    color: white;
+    line-height: 30px;
+    background-color: brown;
+}
+
+.Grid-Biz h3 {
+   margin: 0;
+}
+
+.button40:hover {
+    background-color: white;
+    color: brown;
+    border-radius: 30px;
+    text-decoration-style:wavy;
+}
+ 
+ 
+ 
+ 
+ .Expanding-Cards {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/expanding-cards.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+     
+ }
+ 
+ .Expanding-Cards a{
+     color: red;
+     background-color: whitesmoke;
+     line-height: 30px;
+ }
+
+ .Expanding-Cards h3 {
+    margin: 0;
+    /* background-color: red; */
+ }
+ 
+ .button7:hover {
+     background-color: black;
+     border-radius: 30px;
+     color: pink;
+     text-decoration-style: wavy;
+ }
+ 
+ .Rotating-Navigation {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/rotating-navigation.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+ }
+ 
+ .Rotating-Navigation a{
+     color: White;
+     background-color: red;
+     line-height: 30px;
+ }
+
+ .Rotating-Navigation h3{
+    margin: 0;
+    /* background-color: red; */
+ }
+ 
+ .button8:hover {
+     background-color: white;
+     border-radius: 30px;
+     color:red;
+     text-decoration-style: wavy;
+ }
+ .Blurry-Loading {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/blurry-loading.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+ } 
+ 
+ .Blurry-Loading a {
+     color: black;
+     background-color: yellow;
+     line-height: 30px;
+ }
+
+ .Blurry-Loading h3{
+    margin: 0;
+    /* background-color: yellow; */
+    color: white;
+    
+ }
+ 
+ .button9:hover {
+     background-color: black;
+     color: yellow;
+     border-radius: 30px;
+     text-decoration-style: wavy;
+ }
+ 
+ .Scroll-Animation {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/scroll-animation.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+ } 
+ 
+ .button10:hover {
+     background-color: white;
+     color: blue;
+     border-radius: 30px;
+     text-decoration-style: wavy;
+ }
+ 
+ .Scroll-Animation a {
+     color: white;
+     background-color: blue;
+     line-height: 30px;
+ }
+
+ .Scroll-Animation h3 {
+    margin: 0;
+    color: white;
+   
+ }
+ 
+  .Split-Landing-Page {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/Split-Landing-Page.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+ }  
+ .Split-Landing-Page a {
+     color: green;
+     background-color: yellow;
+     line-height: 30px;
+ }
+
+ .Split-Landing-Page h3 {
+         margin: 0;
+ }
+ 
+ .button11:hover {
+     background-color: green;
+     color: yellow;
+     border-radius: 30px;
+     text-decoration-style: wavy;
+ }
+  .Form-Input-Wave {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/form-input-wave.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+ } 
+ 
+ .Form-Input-Wave a {
+     color: red;
+     background-color: white;
+     line-height: 30px;
+ }
+
+ .Form-Input-Wave h3 {
+    margin: 0;
+ }
+ 
+ .button12:hover {
+     background-color:red;
+     color: white;
+     border-radius: 30px;
+     text-decoration-style:wavy;
+ }
+  
+  .Sound-Board {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/sound-board.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+ } 
+ 
+ .Sound-Board a {
+     color: white;
+     background-color: black;
+     line-height: 30px;
+ }
+
+ .Sound-Board h3 {
+    margin: 0;
+    color: black;
+ }
+ 
+ .button13:hover {
+ background-color: white;
+ color: black;
+ text-decoration-style:wavy;
+ }
+  .Dad-Jokes {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/dad-jokes.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+     /* position: center; */
+ } 
+ 
+ .Dad-Jokes a {
+     color: red;
+     background-color: aqua;
+     line-height: 30px;
+ }
+
+ .Dad-Jokes h3 {
+    margin: 0;
+    
+ }
+ 
+ .button14:hover {
+     background-color: red;
+     color:aqua;
+     border-radius: 30px;
+     text-decoration-style: wavy;
+ }
+  .Animated-Navigation {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/animated-navigation.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+     /* position: center; */
+ } 
+ 
+ .Animated-Navigation a {
+     color: white;
+     background-color: black;
+     line-height: 30px;
+ }
+
+ .Animated-Navigation h3 {
+    margin: 0;
+ }
+ 
+ .button15:hover {
+     background-color: white;
+     color: black;
+     text-decoration-style: wavy;
+ }
+  .Incrementing-Counter {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/incrementing-counter.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+     /* position: center; */
+ } 
+ 
+ .Incrementing-Counter a {
+     color: yellow;
+     background-color: black;
+     line-height: 30px;
+ }
+ 
+ .Incrementing-Counter h3 {
+    margin: 0;
+    color: black;
+ }
+ .button16:hover {
+     background-color: yellow;
+     color: black;
+     border-radius: 30px;
+     text-decoration-style:wavy;
+ }
+  .Drink-Water {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/drink-water.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+     /* position: center; */
+ } 
+ 
+ .Drink-Water a {
+     color: white;
+     background-color: black;
+     line-height: 30px;
+ }
+
+ .Drink-Water h3{
+    margin: 0;
+}
+
+
+ 
+ .button17:hover {
+     background-color: white;
+     color: black;
+     border-radius: 30px;
+     text-decoration-style:wavy;
+ }
+  .Background-Slider {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/slider.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+     /* position: center; */
+ } 
+ 
+ .Background-Slider a {
+     color: green;
+     background-color: aliceblue;
+     line-height: 30px;
+ }
+
+ .Background-Slider h3 {
+    margin: 0;
+ }
+ 
+ .button18:hover {
+     background-color: green;
+     color: white;
+     border-radius: 30px;
+     text-decoration-style:wavy;
+ }
+ 
+ .Movie-App {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/movie-appp.webp);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+     
+     
+     /* position: center; */
+     
+ } 
+ 
+ .Movie-App a {
+     color: red;
+     background-color: yellow;
+     line-height: 30px;
+ }
+
+ .Movie-App h3 {
+    margin: 0;
+ }
+ 
+ .button19:hover {
+     background-color: red;
+     color: yellow;
+     border-radius: 30px;
+     text-decoration-style:wavy;
+ }
+ .Theme-Clock {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/theme-clock.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+     
+     
+     /* position: center; */
+     
+ } 
+ 
+ .Theme-Clock a {
+     color: white;
+     background-color: brown;
+     line-height: 30px;
+ }
+
+ .Theme-Clock h3 {
+    margin: 0;
+    
+ }
+ 
+ .button20:hover {
+     background-color: white;
+     color: brown;
+     border-radius: 30px;
+     text-decoration-style:wavy;
+ }
+ 
+ .Starbucks-Landing-Page-Clone {
+     height: 120px;
+     margin: auto;
+     background-image: url(./images/starbucks3.avif);
+     text-align: center;
+     border: solid black;
+     /* object-fit: cover; */
+     /* position:absolute; */
+     width: 100%;
+     
+     
+     /* position: center; */
+     
+ } 
+ 
+ .Starbucks-Landing-Page-Clone a {
+     color: white;
+     background-color: green;
+     line-height: 30px;
+ }
+
+ .Starbucks-Landing-Page-Clone h3 {
+    margin: 0;
+
+ }
+ 
+ .button41:hover {
+     background-color: white;
+     color: green;
+     border-radius: 30px;
+     text-decoration-style:wavy;
+ }
+ 
+ .nextgentech {
+    height: 120px;
+    margin: auto;
+    background-image: url(./images/nextgentech.jpg);
+    text-align: center;
+    border: solid black;
+    /* object-fit: cover; */
+    /* position:absolute; */
+    width: 100%;
+    
+    
+    /* position: center; */
+    
+} 
+
+.nextgentech a {
+    color: blue;
+    background-color: white;
+    line-height: 30px;
+}
+
+.nextgentech h3 {
+   margin: 0;
+
+
+}
+
+.button23:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    text-decoration-style:wavy;
+}
+ .Vertical-Slider {
+    height: 120px;
+    margin: auto;
+    background-image: url(./images/verticalslider.jpg);
+    text-align: center;
+    border: solid black;
+    /* object-fit: cover; */
+    /* position:absolute; */
+    width: 100%;
+    
+    
+    /* position: center; */
+    
+} 
+
+.Vertical-Slider a {
+    color: blue;
+    background-color: white;
+    line-height: 30px;
+}
+
+.Vertical-Slider h3 {
+   margin: 0;
+
+
+}
+
+.button21:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    text-decoration-style:wavy;
+}
+
+
+.button22:hover {
+    background-color: lightblue;
+    border-radius: 30px;
+    color:rgb(249, 11, 11);
+    text-decoration-style: wavy;
+    
+}
+
+.Drawing-App {
+   height: 120px;
+   margin: auto;
+   background-image: url(./images/drawing.jpg);
+   text-align: center;
+   border: solid black;
+   /* object-fit: cover; */
+   /* position:absolute; */
+   width: 100%;
+   
+   
+   /* position: center; */
+   
+} 
+
+.Drawing-App a {
+   color: white;
+   line-height: 30px;
+   background-color: brown;
+}
+
+.Drawing-App h3 {
+  margin: 0;
+  color: red;
+}
+.google-gemini {
+   height: 120px;
+   margin: auto;
+   background-image: url(./images/gemini.jpg);
+   text-align: center;
+   border: solid black;
+   /* object-fit: cover; */
+   /* position:absolute; */
+   width: 100%;
+   
+   
+   /* position: center; */
+   
+} 
+
+.google-gemini a {
+   color: white;
+   line-height: 30px;
+   background-color: brown;
+}
+
+.google-gemini h3 {
+  margin: 0;
+  color: red;
+}
+.Educity {
+   height: 120px;
+   margin: auto;
+   background-image: url(./images/edusity.jpg);
+   text-align: center;
+   border: solid black;
+   /* object-fit: cover; */
+   /* position:absolute; */
+   width: 100%;
+   
+   
+   /* position: center; */
+   
+} 
+
+.Educity a {
+   color: white;
+   line-height: 30px;
+   background-color: brown;
+}
+
+.Educity h3 {
+  margin: 0;
+  color: red;
+}
